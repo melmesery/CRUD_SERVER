@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { auth } from "../../middleware/auth.js";
 import { validation } from "../../middleware/validation.js";
-import * as validators from "../auth/auth.validation.js";
+import * as validators from "../Auth/auth.validation.js";
 import * as authController from "../Auth/controller/auth.js";
 import { endPoint } from "./auth.endPoint.js";
 
